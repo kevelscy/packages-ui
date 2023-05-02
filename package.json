@@ -1,10 +1,10 @@
 {
-  "name": "quickgo-ui",
+  "name": "packages-ui-test",
   "version": "0.1.0",
   "description": "Dashboards UI with tailwind and some community packages",
   "type": "module",
   "scripts": {
-    "build": "tsc",
+    "build": "rimraf dist && tsc",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
