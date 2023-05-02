@@ -63,5 +63,4 @@ export {
   AreaChart,
   MultiSelectBox,
   MultiSelectBoxItem,
-  type DeltaType
 } from '@tremor/react'
