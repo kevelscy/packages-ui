@@ -1,7 +1,5 @@
 import './styles.css'
 
-export * from './components/tremor'
-
 export * from './components/shadcn-ui/accordion'
 export * from './components/shadcn-ui/alert'
 export * from './components/shadcn-ui/alert-dialog'
@@ -36,3 +34,34 @@ export * from './components/shadcn-ui/toast'
 export * from './components/shadcn-ui/toaster'
 export * from './components/shadcn-ui/toggle'
 export * from './components/shadcn-ui/tooltip'
+
+export {
+  Title,
+  Text,
+  Table,
+  TableHead,
+  TableRow,
+  Dropdown,
+  DropdownItem,
+  TableHeaderCell,
+  TableBody,
+  TableCell,
+  Flex,
+  Grid,
+  Col,
+  Divider,
+  ListItem,
+  List,
+  Bold,
+  Tab,
+  TabList,
+  Metric,
+  ProgressBar,
+  BadgeDelta,
+  ToggleItem,
+  Icon,
+  AreaChart,
+  MultiSelectBox,
+  MultiSelectBoxItem,
+  type DeltaType
+} from '@tremor/react'
