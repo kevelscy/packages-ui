@@ -1,5 +1,6 @@
-import * as React from 'react'
 import './styles.css'
+
+export * from './components/tremor'
 
 export * from './components/shadcn-ui/accordion'
 export * from './components/shadcn-ui/alert'
@@ -35,4 +36,3 @@ export * from './components/shadcn-ui/toast'
 export * from './components/shadcn-ui/toaster'
 export * from './components/shadcn-ui/toggle'
 export * from './components/shadcn-ui/tooltip'
-export { BarChart, DonutChart, AreaChart, LineChart } from '@tremor/react'
