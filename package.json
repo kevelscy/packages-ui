@@ -1,6 +1,6 @@
 {
   "name": "packages-ui-test",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Dashboards UI with tailwind and some community packages",
   "type": "module",
   "scripts": {
