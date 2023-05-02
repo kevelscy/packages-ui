@@ -1,8 +1,9 @@
 {
   "name": "packages-ui-test",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Dashboards UI with tailwind and some community packages",
   "type": "module",
+  "types": "dist/types",
   "scripts": {
     "build": "rimraf dist && tsc",
     "prepublishOnly": "npm run build"

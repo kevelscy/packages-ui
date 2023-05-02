@@ -18,6 +18,8 @@
     "noImplicitAny": false,
     "baseUrl": ".",
     "outDir": "dist",
+    "declaration": true,
+    "declarationDir": "dist/types",
     "paths": {
       "@/*": ["./*"]
     },
